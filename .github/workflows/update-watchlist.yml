@@ -23,6 +23,8 @@ jobs:
           python-version: "3.11"
 
       - name: Run scanner
+        env:
+          SEATS_AERO_API_KEY: ${{ secrets.SEATS_AERO_API_KEY }}
         run: python scripts/update_watchlist.py
 
       - name: Commit updated data
