@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Travel Arbitrage Watchlist</title>
+  <style>
+    :root{--bg:#0f1115;--card:#171a21;--card2:#202636;--text:#eef1f6;--muted:#aeb7c7;--line:#2b3343;--good:#9ee493;--warn:#ffd166;--bad:#ff8a8a;--blue:#94c7ff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.45}
+    header{padding:32px 22px 18px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#171a21,#0f1115)}
+    h1{margin:0 0 8px;font-size:30px;letter-spacing:-.03em}
+    .subtitle{color:var(--muted);max-width:1000px}
+    main{padding:22px;max-width:1280px;margin:0 auto}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+    .span-12{grid-column:span 12}.span-6{grid-column:span 6}.span-4{grid-column:span 4}
+    h2{margin:0 0 12px;font-size:18px} h3{margin:0 0 8px;font-size:15px}
+    .pill{display:inline-block;padding:4px 9px;border-radius:999px;background:var(--card2);color:var(--muted);font-size:12px;margin:2px 4px 2px 0;border:1px solid var(--line)}
+    table{width:100%;border-collapse:collapse}
+    th,td{text-align:left;padding:11px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+    th{color:var(--muted);font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+    td{font-size:13.5px}.metric{font-size:28px;font-weight:800;letter-spacing:-.03em}.muted{color:var(--muted)}.blue{color:var(--blue)}
+    .book{color:var(--good);font-weight:800}.monitor{color:var(--warn);font-weight:800}.ignore{color:var(--bad);font-weight:800}
+    .filters{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}
+    button{cursor:pointer;border:1px solid var(--line);background:var(--card2);color:var(--text);border-radius:999px;padding:8px 11px}
+    button.active{outline:2px solid var(--blue)}
+    ul{margin:8px 0 0 18px;padding:0;color:var(--muted)} li{margin:6px 0}
+    @media(max-width:800px){.span-6,.span-4{grid-column:span 12}table{display:block;overflow-x:auto;white-space:nowrap}}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Travel Arbitrage Watchlist</h1>
+  <div class="subtitle">Live CSV-backed dashboard for Amex transfer bonuses, award-space sweet spots, surf trips, snowboard trips, and strong cash fare alternatives from SJU, MIA, and FLL.</div>
+</header>
+<main>
+  <section class="grid">
+    <div class="card span-4"><h2>Primary Airports</h2><span class="pill">SJU only</span><span class="pill">MIA only</span><span class="pill">FLL only</span></div>
+    <div class="card span-4"><h2>Points Base</h2><div class="metric">100k</div><div class="muted">Amex Membership Rewards</div></div>
+    <div class="card span-4"><h2>Core Rule</h2><div class="metric">2 Seats</div><div class="muted">Prioritize two-person availability</div></div>
+
+    <div class="card span-12">
+      <h2>Best Current Opportunities Board</h2>
+      <div class="filters">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="Book Now">Book Now</button>
+        <button data-filter="Monitor">Monitor</button>
+        <button data-filter="Surf Mission">Surf</button>
+        <button data-filter="Snowboard / Powder">Snowboard</button>
+        <button data-filter="Big Expedition">Big Expedition</button>
+      </div>
+      <table id="opps">
+        <thead>
+          <tr>
+            <th>Rank</th><th>Destination</th><th>Archetype</th><th>Window</th><th>Depart</th><th>Routing</th><th>Program</th><th>Cabin/Cost</th><th>Value</th><th>2 Seats</th><th>Status</th><th>Notes</th>
+          </tr>
+        </thead>
+        <tbody><tr><td colspan="12" class="muted">Loading opportunities.csv...</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="card span-6">
+      <h2>Seasonality Logic</h2>
+      <ul>
+        <li><strong>Chile:</strong> snowboard target in Northern Hemisphere summer / Southern Hemisphere winter, roughly July–September.</li>
+        <li><strong>Japan:</strong> serious target for winter powder and premium-cabin awards, especially January–February.</li>
+        <li><strong>Europe:</strong> prioritize shoulder-season business-class value and Alps winter trips.</li>
+        <li><strong>Indonesia:</strong> prioritize dry-season surf windows.</li>
+        <li><strong>Morocco:</strong> prioritize fall/winter surf windows.</li>
+      </ul>
+    </div>
+
+    <div class="card span-6">
+      <h2>Alert Thresholds</h2>
+      <ul>
+        <li>Europe business under ~60k points one-way.</li>
+        <li>Iberia MIA–Madrid business under ~50k points one-way.</li>
+        <li>Economy generally above ~1.5 cents/point.</li>
+        <li>Business generally above ~3 cents/point.</li>
+        <li>Transfer bonuses 20%+ unless strategically useful below that.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+<script>
+function parseCSV(text){
+  const rows=[];let row=[],field="",q=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i],n=text[i+1];
+    if(c=='"'&&q&&n=='"'){field+='"';i++}
+    else if(c=='"'){q=!q}
+    else if(c==','&&!q){row.push(field);field=""}
+    else if((c=='\n'||c=='\r')&&!q){if(field||row.length){row.push(field);rows.push(row);row=[];field=""} if(c=='\r'&&n=='\n')i++}
+    else field+=c
+  }
+  if(field||row.length){row.push(field);rows.push(row)}
+  return rows
+}
+let allRows=[];
+function statusClass(s){s=(s||"").toLowerCase(); if(s.includes("book"))return"book"; if(s.includes("monitor"))return"monitor"; return"ignore"}
+function render(filter="all"){
+  const tbody=document.querySelector("#opps tbody");
+  const filtered=allRows.filter(r=>filter==="all"||r.recommendation===filter||r.archetype===filter);
+  tbody.innerHTML="";
+  if(!filtered.length){tbody.innerHTML='<tr><td colspan="12" class="muted">No matching opportunities.</td></tr>';return}
+  filtered.forEach(r=>{
+    const tr=document.createElement("tr");
+    tr.innerHTML=`<td>${r.rank}</td><td class="blue">${r.destination}</td><td>${r.archetype}</td><td>${r.travel_window}</td><td>${r.depart_airport}</td><td>${r.routing_quality}</td><td>${r.program}</td><td>${r.cabin_cost}</td><td>${r.value}</td><td>${r.two_seats}</td><td class="${statusClass(r.recommendation)}">${r.recommendation}</td><td>${r.notes}</td>`;
+    tbody.appendChild(tr)
+  })
+}
+fetch("opportunities.csv?cache="+Date.now())
+.then(r=>r.text())
+.then(text=>{
+  const parsed=parseCSV(text); const headers=parsed.shift();
+  allRows=parsed.filter(r=>r.length>1).map(r=>Object.fromEntries(headers.map((h,i)=>[h,r[i]||""])));
+  allRows.sort((a,b)=>(parseFloat(a.rank)||999)-(parseFloat(b.rank)||999));
+  render();
+})
+.catch(e=>{document.querySelector("#opps tbody").innerHTML='<tr><td colspan="12" class="muted">Could not load opportunities.csv. Make sure the file is in the same folder as index.html.</td></tr>'});
+document.querySelectorAll("button[data-filter]").forEach(btn=>btn.addEventListener("click",()=>{
+  document.querySelectorAll("button[data-filter]").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active"); render(btn.dataset.filter);
+}));
+</script>
+</body>
+</html>
