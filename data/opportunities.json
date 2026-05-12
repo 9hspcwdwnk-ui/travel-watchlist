@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12T23:18:05.311157+00:00",
+  "updated_at": "2026-05-12T23:27:04.952018+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero API issue",
@@ -12,8 +12,8 @@
       "value": "N/A",
       "two_seats": "Unknown",
       "recommendation": "Monitor",
-      "score": 50,
-      "notes": "Seats.aero request failed: HTTP Error 403: Forbidden"
+      "score": 0,
+      "notes": "Request failed: HTTP Error 403: Forbidden"
     }
   ]
 }
