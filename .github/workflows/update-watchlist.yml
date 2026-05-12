@@ -22,9 +22,6 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Pull latest changes
-        run: git pull --rebase
-
       - name: Run scanner
         env:
           SEATS_AERO_API_KEY: ${{ secrets.SEATS_AERO_API_KEY }}
