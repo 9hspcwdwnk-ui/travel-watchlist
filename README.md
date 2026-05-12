@@ -1,48 +1,46 @@
-# Travel Arbitrage Watchlist
+# Travel Arbitrage Command Center
 
-Simple/free setup:
+This is the automated starter version.
 
-- `index.html` = private-ish dashboard
-- `opportunities.csv` = live opportunity board
-- `update_watchlist.py` = local Python helper to add opportunities
+## What it does now
 
-## Free hosting option
+- Hosts a free static dashboard on GitHub Pages.
+- Reads opportunities from `data/opportunities.json`.
+- Runs a scheduled GitHub Actions Python script.
+- Re-scores and refreshes the board automatically.
+- Can later connect to Seats.aero Pro API, fare APIs, and transfer bonus sources.
 
-Use GitHub Pages.
+## Files
 
-1. Create a GitHub account if needed.
-2. Create a new repository, for example: `travel-watchlist`.
-3. Upload:
-   - `index.html`
-   - `opportunities.csv`
-   - `update_watchlist.py`
-4. Go to repository Settings → Pages.
-5. Set source to `main` branch and `/root`.
-6. Your site will publish at a GitHub Pages URL.
-7. Optional: connect your own domain later.
+- `index.html` — dashboard
+- `data/opportunities.json` — live opportunity data
+- `scripts/update_watchlist.py` — automated scanner/scoring script
+- `.github/workflows/update-watchlist.yml` — scheduled GitHub Actions automation
+- `config.json` — your airports, rules, and target destinations
 
-## Daily workflow
+## Setup
 
-When an alert finds something good:
+1. Upload all files/folders to your GitHub repo.
+2. In GitHub, go to Settings → Pages.
+3. Source: Deploy from branch.
+4. Branch: main.
+5. Folder: /root.
+6. Save.
 
-1. Open Terminal in this folder.
-2. Run:
+## Test automation
 
-```bash
-python3 update_watchlist.py
-```
+Go to Actions → Update Travel Watchlist → Run workflow.
 
-3. Enter the details.
-4. Commit/push to GitHub:
+If it works, `data/opportunities.json` will update with a fresh timestamp.
 
-```bash
-git add opportunities.csv
-git commit -m "Update travel opportunities"
-git push
-```
+## Next serious upgrade
 
-GitHub Pages will republish the dashboard.
+Add API integrations:
+- Seats.aero Pro API for award availability.
+- Transfer bonus monitoring.
+- Fare monitoring source.
 
-## Important privacy note
+API keys should be stored in GitHub:
+Settings → Secrets and variables → Actions → New repository secret.
 
-Free GitHub Pages is best treated as public-facing unless you use a paid/private setup or protect it behind another service. Do not put passport numbers, account logins, Amex details, booking confirmation numbers, or sensitive personal information in the CSV.
+Never place API keys directly in code.

@@ -1,0 +1,83 @@
+{
+  "home_airports": [
+    "SJU",
+    "MIA",
+    "FLL"
+  ],
+  "points_currency": "Amex Membership Rewards",
+  "points_balance_estimate": 100000,
+  "hard_rules": {
+    "prioritize_two_seats": true,
+    "avoid_speculative_transfers": true,
+    "min_economy_cpp": 1.5,
+    "min_business_cpp": 3.0
+  },
+  "targets": [
+    {
+      "destination": "Japan",
+      "archetypes": [
+        "Big Expedition",
+        "Snowboard / Powder"
+      ],
+      "ideal_windows": [
+        "Jan-Feb"
+      ],
+      "priority": 10
+    },
+    {
+      "destination": "Chile",
+      "archetypes": [
+        "Snowboard / Powder"
+      ],
+      "ideal_windows": [
+        "Jul-Sep"
+      ],
+      "priority": 9
+    },
+    {
+      "destination": "Europe",
+      "archetypes": [
+        "Luxury/Romantic",
+        "Snowboard / Powder"
+      ],
+      "ideal_windows": [
+        "Sep-Oct",
+        "Jan-Mar"
+      ],
+      "priority": 9
+    },
+    {
+      "destination": "Indonesia",
+      "archetypes": [
+        "Surf Mission",
+        "Big Expedition"
+      ],
+      "ideal_windows": [
+        "May-Sep"
+      ],
+      "priority": 8
+    },
+    {
+      "destination": "Oaxaca",
+      "archetypes": [
+        "Surf Mission",
+        "Short Easy Reset"
+      ],
+      "ideal_windows": [
+        "Apr-Oct"
+      ],
+      "priority": 8
+    },
+    {
+      "destination": "Morocco",
+      "archetypes": [
+        "Surf Mission",
+        "Luxury/Romantic"
+      ],
+      "ideal_windows": [
+        "Sep-Mar"
+      ],
+      "priority": 8
+    }
+  ]
+}
