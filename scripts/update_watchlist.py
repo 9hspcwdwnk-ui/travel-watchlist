@@ -95,9 +95,9 @@ def seats_cached_search(destinations: list[str], start_date: str, end_date: str,
     req = urllib.request.Request(
         url,
         headers={
-            "Partner-Authorization": api_key,
-            "Accept": "application/json"
-        }
+    "Authorization": api_key,
+    "Accept": "application/json"
+}
     )
 
     try:
