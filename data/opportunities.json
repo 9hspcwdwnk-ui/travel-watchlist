@@ -1,4 +1,19 @@
 {
-  "updated_at": "2026-05-12T06:39:39.033699+00:00",
-  "opportunities": []
+  "updated_at": "2026-05-12T07:06:40.525865+00:00",
+  "opportunities": [
+    {
+      "destination": "Seats.aero API issue",
+      "archetype": "System",
+      "travel_window": "Now",
+      "depart_airport": "SJU/MIA/FLL",
+      "routing_quality": "N/A",
+      "program": "Seats.aero",
+      "cabin_cost": "API error",
+      "value": "N/A",
+      "two_seats": "Unknown",
+      "recommendation": "Monitor",
+      "score": 50,
+      "notes": "Seats.aero request failed: HTTP Error 403: Forbidden"
+    }
+  ]
 }
