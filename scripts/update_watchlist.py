@@ -80,7 +80,7 @@ def fetch_seats():
         "cabin": "business",
     }
 
-    url = "https://seats.aero/partnerapi/search?" + urllib.parse.urlencode(params)
+    url = "https://seats.aero/partnerapi/routes?" + urllib.parse.urlencode(params)
 
     req = urllib.request.Request(
         url,
