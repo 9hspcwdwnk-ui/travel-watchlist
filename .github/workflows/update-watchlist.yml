@@ -1,0 +1,34 @@
+name: Update Travel Watchlist
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-watchlist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run scanner
+        run: python scripts/update_watchlist.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "travel-watchlist-bot"
+          git config user.email "actions@github.com"
+          git add data/opportunities.json
+          git diff --cached --quiet || git commit -m "Update travel watchlist data"
+          git push
