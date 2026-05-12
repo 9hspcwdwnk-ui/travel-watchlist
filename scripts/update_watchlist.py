@@ -85,9 +85,9 @@ def fetch_seats():
     req = urllib.request.Request(
         url,
         headers={
-            "Authorization": f"Bearer {api_key}",
-            "Accept": "application/json",
-        },
+            "x-api-key": api_key,
+            "Accept": "application/json"
+}
     )
 
     try:
