@@ -74,17 +74,10 @@ def fetch_seats():
         return build_error("Missing SEATS_AERO_API_KEY secret")
 
     params = {
-        "origin_airport": ",".join(HOME_AIRPORTS),
-        "destination_airport": ",".join(DESTINATIONS),
-        "take": "50",
+        "origin_airport": "MIA",
+        "destination_airport": "MAD",
         "start_date": "2026-06-10",
-        "end_date": "2026-06-30",
-        "cabin": "business",
-        "include_trips": "true",
-        "only_direct_flights": "false",
-        "include_filtered": "false",
-        "sources": ",".join(SOURCES),
-        "order_by": "lowest_mileage"
+        "end_date": "2026-06-30"
 }
 
     url = "https://seats.aero/partnerapi/search?" + urllib.parse.urlencode(params)
