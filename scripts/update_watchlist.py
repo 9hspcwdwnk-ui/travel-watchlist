@@ -80,7 +80,19 @@ def fetch_seats():
         }
 
     except Exception as e:
-        return build_error(f"Request failed: {e}")
+        error_body = ""
+
+        try:
+            error_body = e.read().decode("utf-8")
+        except Exception:
+            error_body = "No error body available"
+
+        print("REQUEST ERROR:")
+        print(str(e))
+        print("ERROR BODY:")
+        print(error_body[:2000])
+
+        return build_error(f"Request failed: {e}. Body: {error_body[:500]}")
 
 
 def main():
