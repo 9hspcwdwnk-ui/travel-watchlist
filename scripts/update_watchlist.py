@@ -77,8 +77,15 @@ def fetch_seats():
         "origin_airport": ",".join(HOME_AIRPORTS),
         "destination_airport": ",".join(DESTINATIONS),
         "take": "50",
+        "start_date": START_DATE,
+        "end_date": END_DATE,
         "cabin": "business",
-    }
+        "include_trips": "true",
+        "only_direct_flights": "false",
+        "include_filtered": "false",
+        "sources": ",".join(SOURCES),
+        "order_by": "lowest_mileage"
+}
 
     url = "https://seats.aero/partnerapi/routes?" + urllib.parse.urlencode(params)
 
