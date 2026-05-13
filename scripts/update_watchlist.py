@@ -32,6 +32,10 @@ def build_error(message):
 
 def fetch_seats():
     api_key = os.environ.get("SEATS_AERO_API_KEY", "").strip()
+    
+    print("API key present:", bool(api_key))
+    print("API key starts with pro_:", api_key.startswith("pro_"))
+    print("API key length:", len(api_key))
 
     if not api_key:
         return build_error("Missing SEATS_AERO_API_KEY secret")
