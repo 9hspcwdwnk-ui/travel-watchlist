@@ -80,14 +80,15 @@ def fetch_seats():
         "end_date": "2026-06-30"
 }
 
-    url = "https://seats.aero/partnerapi/search?" + urllib.parse.urlencode(params)
+url = "https://seats.aero/partnerapi/routes"
 
-    req = urllib.request.Request(
-        url,
-        headers={
-            "Partner-Authorization": api_key,
-            "Accept": "application/json"
-}
+req = urllib.request.Request(
+    url,
+    headers={
+        "Partner-Authorization": api_key,
+        "accept": "application/json"
+    }
+)
     )
 
     try:
