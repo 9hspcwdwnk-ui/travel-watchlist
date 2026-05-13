@@ -54,6 +54,9 @@ def fetch_seats():
         with urllib.request.urlopen(req, timeout=30) as resp:
             raw = resp.read().decode("utf-8")
 
+        print("RAW RESPONSE:")
+        print(raw[:2000])
+
         data = json.loads(raw)
 
         return {
