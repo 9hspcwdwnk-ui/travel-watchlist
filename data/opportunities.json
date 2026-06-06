@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T19:22:29.782328+00:00",
+  "updated_at": "2026-06-06T11:11:58.201555+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero API issue",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 0,
-      "notes": "Request failed: HTTP Error 403: Forbidden. Body: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's signature.\",\"instance\":\"a0718be018cff157\",\"error_code\":1010,\"error_name\":\"browser_signature_banned\",\"error_category\":\"access_denied\",\"ray_id\":\"a0718be018cff157\",\"timestamp\":\"2026-06-05T19:22:29Z\",\"zone\":\"seats.aero\",\"cloudflare_error\":true,\"retryable\":false,\"own"
+      "notes": "Request failed: HTTP Error 403: Forbidden. Body: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's signature.\",\"instance\":\"a076fab4aca01e0f\",\"error_code\":1010,\"error_name\":\"browser_signature_banned\",\"error_category\":\"access_denied\",\"ray_id\":\"a076fab4aca01e0f\",\"timestamp\":\"2026-06-06T11:11:58Z\",\"zone\":\"seats.aero\",\"cloudflare_error\":true,\"retryable\":false,\"own"
     }
   ]
 }
