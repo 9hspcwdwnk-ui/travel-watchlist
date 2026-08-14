@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-13T14:21:59.122258+00:00",
+  "updated_at": "2026-08-14T07:21:38.281437+00:00",
   "opportunities": [
     {
-      "destination": "Seats.aero API issue",
+      "destination": "Seats.aero routes test",
       "archetype": "System",
       "travel_window": "Now",
       "depart_airport": "SJU/MIA/FLL",
       "routing_quality": "N/A",
       "program": "Seats.aero",
-      "cabin_cost": "API error",
+      "cabin_cost": "Connected",
       "value": "N/A",
       "two_seats": "Unknown",
       "recommendation": "Monitor",
-      "score": 0,
-      "notes": "Request failed: HTTP Error 403: Forbidden. Body: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's signature.\",\"instance\":\"a2a85e8c7f47fa26\",\"error_code\":1010,\"error_name\":\"browser_signature_banned\",\"error_category\":\"access_denied\",\"ray_id\":\"a2a85e8c7f47fa26\",\"timestamp\":\"2026-08-13T14:21:59Z\",\"zone\":\"seats.aero\",\"cloudflare_error\":true,\"retryable\":false,\"own"
+      "score": 100,
+      "notes": "[{\"ID\": \"2uBoQR5pRVrP49e0sSU3jQWHlJy\", \"OriginAirport\": \"EWR\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LHR\", \"DestinationRegion\": \"Europe\", \"Distance\": 3460, \"Source\": \"copa\"}, {\"ID\": \"2UMkliDMmRnGXFfUWxqXUfWRtGQ\", \"OriginAirport\": \"MEX\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"YVR\", \"DestinationRegion\": \"North America\", \"Distance\": 2453, \"Source\": \"lifemiles\"}, {\"ID\": \"2WyeLkAtRfO62gksnhF5d1G2JJm\", \"OriginAirport\": \"DCA\", \"OriginRegion\": \"North America\", \"Destina"
     }
   ]
 }
