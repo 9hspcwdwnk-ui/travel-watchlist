@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T06:54:13.804803+00:00",
+  "updated_at": "2026-08-24T13:51:49.078303+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"2SOxnBKscRdWPmnqNUkedStoP7w\", \"OriginAirport\": \"AKL\", \"OriginRegion\": \"Oceania\", \"DestinationAirport\": \"SFO\", \"DestinationRegion\": \"North America\", \"Distance\": 6537, \"Source\": \"velocity\"}, {\"ID\": \"2uBoQR5pRVrP49e0sSU3jQWHlJy\", \"OriginAirport\": \"EWR\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LHR\", \"DestinationRegion\": \"Europe\", \"Distance\": 3460, \"Source\": \"copa\"}, {\"ID\": \"2UMkliDMmRnGXFfUWxqXUfWRtGQ\", \"OriginAirport\": \"MEX\", \"OriginRegion\": \"North America\", \"DestinationAir"
+      "notes": "[{\"ID\": \"2YKuso5TWyLw3L0152meu9WDTKd\", \"OriginAirport\": \"FCO\", \"OriginRegion\": \"Europe\", \"DestinationAirport\": \"SYD\", \"DestinationRegion\": \"Oceania\", \"Distance\": 10166, \"Source\": \"qantas\"}, {\"ID\": \"2uBoQR5pRVrP49e0sSU3jQWHlJy\", \"OriginAirport\": \"EWR\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LHR\", \"DestinationRegion\": \"Europe\", \"Distance\": 3460, \"Source\": \"copa\"}, {\"ID\": \"2UMkliDMmRnGXFfUWxqXUfWRtGQ\", \"OriginAirport\": \"MEX\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \""
     }
   ]
 }
