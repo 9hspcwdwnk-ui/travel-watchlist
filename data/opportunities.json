@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T16:00:10.792336+00:00",
+  "updated_at": "2026-09-07T11:37:43.515029+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"38M7mXl7FTt4L9At0h1Wv8WJqOa\", \"OriginAirport\": \"FOC\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"HIA\", \"DestinationRegion\": \"Asia\", \"Distance\": 544, \"Source\": \"virginatlantic\"}, {\"ID\": \"2uBoQR5pRVrP49e0sSU3jQWHlJy\", \"OriginAirport\": \"EWR\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LHR\", \"DestinationRegion\": \"Europe\", \"Distance\": 3460, \"Source\": \"copa\"}, {\"ID\": \"2UMkliDMmRnGXFfUWxqXUfWRtGQ\", \"OriginAirport\": \"MEX\", \"OriginRegion\": \"North America\", \"DestinationAirport\": "
+      "notes": "[{\"ID\": \"38M7mXl7FTt4L9At0h1Wv8WJqOa\", \"OriginAirport\": \"FOC\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"HIA\", \"DestinationRegion\": \"Asia\", \"Distance\": 544, \"Source\": \"virginatlantic\"}, {\"ID\": \"2uBoQR5pRVrP49e0sSU3jQWHlJy\", \"OriginAirport\": \"EWR\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LHR\", \"DestinationRegion\": \"Europe\", \"Distance\": 3460, \"Source\": \"copa\"}, {\"ID\": \"2vL7pcIhLLkwQLsuVRUW4eFPi33\", \"OriginAirport\": \"DEL\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"ADD\", \"D"
     }
   ]
 }
