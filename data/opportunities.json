@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T16:01:57.599641+00:00",
+  "updated_at": "2026-09-13T11:07:21.300802+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"2uBoQR5pRVrP49e0sSU3jQWHlJy\", \"OriginAirport\": \"EWR\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LHR\", \"DestinationRegion\": \"Europe\", \"Distance\": 3460, \"Source\": \"copa\"}, {\"ID\": \"2UMkliDMmRnGXFfUWxqXUfWRtGQ\", \"OriginAirport\": \"MEX\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"YVR\", \"DestinationRegion\": \"North America\", \"Distance\": 2453, \"Source\": \"lifemiles\"}, {\"ID\": \"2vL7pcIhLLkwQLsuVRUW4eFPi33\", \"OriginAirport\": \"DEL\", \"OriginRegion\": \"Asia\", \"DestinationAirpo"
+      "notes": "[{\"ID\": \"2uBoQR5pRVrP49e0sSU3jQWHlJy\", \"OriginAirport\": \"EWR\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LHR\", \"DestinationRegion\": \"Europe\", \"Distance\": 3460, \"Source\": \"copa\"}, {\"ID\": \"2UMkliDMmRnGXFfUWxqXUfWRtGQ\", \"OriginAirport\": \"MEX\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"YVR\", \"DestinationRegion\": \"North America\", \"Distance\": 2453, \"Source\": \"lifemiles\"}, {\"ID\": \"34fnTIaoMFI48e184Kssknazwof\", \"OriginAirport\": \"NRT\", \"OriginRegion\": \"Asia\", \"DestinationAirpo"
     }
   ]
 }
