@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T17:00:46.217115+00:00",
+  "updated_at": "2026-10-04T11:48:32.516018+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"2WC1bmDUPofCB9u5yg1udorXjd6\", \"OriginAirport\": \"BOS\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"ROC\", \"DestinationRegion\": \"North America\", \"Distance\": 342, \"Source\": \"alaska\"}, {\"ID\": \"2aWceuZ9xO5Qt2kMACvi5au95qJ\", \"OriginAirport\": \"ZNZ\", \"OriginRegion\": \"Africa\", \"DestinationAirport\": \"AMS\", \"DestinationRegion\": \"Europe\", \"Distance\": 4527, \"Source\": \"qantas\"}, {\"ID\": \"2ZmKQ6W876BHOYgPoZ6hjLhbjCh\", \"OriginAirport\": \"SFO\", \"OriginRegion\": \"North America\", \"DestinationAirpo"
+      "notes": "[{\"ID\": \"2WC1bmDUPofCB9u5yg1udorXjd6\", \"OriginAirport\": \"BOS\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"ROC\", \"DestinationRegion\": \"North America\", \"Distance\": 342, \"Source\": \"alaska\"}, {\"ID\": \"2aWceuZ9xO5Qt2kMACvi5au95qJ\", \"OriginAirport\": \"ZNZ\", \"OriginRegion\": \"Africa\", \"DestinationAirport\": \"AMS\", \"DestinationRegion\": \"Europe\", \"Distance\": 4527, \"Source\": \"qantas\"}, {\"ID\": \"2jKte5UhZDZ1mNHKhHC2FjHGWl9\", \"OriginAirport\": \"DEN\", \"OriginRegion\": \"North America\", \"DestinationAirpo"
     }
   ]
 }
