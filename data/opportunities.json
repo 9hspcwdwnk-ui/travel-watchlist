@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T18:48:35.194649+00:00",
+  "updated_at": "2026-10-07T12:41:00.753380+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"3HzM6gpPtgUGSWYyTQEba0Vt5mR\", \"OriginAirport\": \"CMN\", \"OriginRegion\": \"Africa\", \"DestinationAirport\": \"LAX\", \"DestinationRegion\": \"North America\", \"Distance\": 5984, \"Source\": \"qantas\"}, {\"ID\": \"2aWceuZ9xO5Qt2kMACvi5au95qJ\", \"OriginAirport\": \"ZNZ\", \"OriginRegion\": \"Africa\", \"DestinationAirport\": \"AMS\", \"DestinationRegion\": \"Europe\", \"Distance\": 4527, \"Source\": \"qantas\"}, {\"ID\": \"2jKte5UhZDZ1mNHKhHC2FjHGWl9\", \"OriginAirport\": \"DEN\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \""
+      "notes": "[{\"ID\": \"3HzM6gpPtgUGSWYyTQEba0Vt5mR\", \"OriginAirport\": \"CMN\", \"OriginRegion\": \"Africa\", \"DestinationAirport\": \"LAX\", \"DestinationRegion\": \"North America\", \"Distance\": 5984, \"Source\": \"qantas\"}, {\"ID\": \"2aWceuZ9xO5Qt2kMACvi5au95qJ\", \"OriginAirport\": \"ZNZ\", \"OriginRegion\": \"Africa\", \"DestinationAirport\": \"AMS\", \"DestinationRegion\": \"Europe\", \"Distance\": 4527, \"Source\": \"qantas\"}, {\"ID\": \"3KLfjM03UBDxCkBZV9HZdGU449V\", \"OriginAirport\": \"NKG\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"URC\", \"De"
     }
   ]
 }
