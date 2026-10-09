@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T12:36:06.373935+00:00",
+  "updated_at": "2026-10-09T18:40:25.060313+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"3HzM6gpPtgUGSWYyTQEba0Vt5mR\", \"OriginAirport\": \"CMN\", \"OriginRegion\": \"Africa\", \"DestinationAirport\": \"LAX\", \"DestinationRegion\": \"North America\", \"Distance\": 5984, \"Source\": \"qantas\", \"Connecting\": false}, {\"ID\": \"2mwHIW1qtqEK9rLzcZB5vGuCyCb\", \"OriginAirport\": \"FWA\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"ATL\", \"DestinationRegion\": \"North America\", \"Distance\": 509, \"Source\": \"delta\", \"Connecting\": false}, {\"ID\": \"3KLfjM03UBDxCkBZV9HZdGU449V\", \"OriginAirport\": \"NKG\", \"O"
+      "notes": "[{\"ID\": \"2mwHIW1qtqEK9rLzcZB5vGuCyCb\", \"OriginAirport\": \"FWA\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"ATL\", \"DestinationRegion\": \"North America\", \"Distance\": 509, \"Source\": \"delta\", \"Connecting\": false}, {\"ID\": \"3KLfjM03UBDxCkBZV9HZdGU449V\", \"OriginAirport\": \"NKG\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"URC\", \"DestinationRegion\": \"Asia\", \"Distance\": 1894, \"Source\": \"etihad\", \"Connecting\": false}, {\"ID\": \"2aWceuZ9xO5Qt2kMACvi5au95qJ\", \"OriginAirport\": \"ZNZ\", \"OriginRegion"
     }
   ]
 }
