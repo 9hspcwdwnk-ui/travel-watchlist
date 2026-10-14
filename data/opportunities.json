@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T11:13:42.271865+00:00",
+  "updated_at": "2026-10-14T17:48:45.830777+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"2SB27wOOLxesTZMGvVbW7vtwaa1\", \"OriginAirport\": \"SFO\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"MEL\", \"DestinationRegion\": \"Oceania\", \"Distance\": 7871, \"Source\": \"velocity\", \"Connecting\": false}, {\"ID\": \"2vBMkhdokNeYid0eHIkHX228QOu\", \"OriginAirport\": \"KEF\", \"OriginRegion\": \"Europe\", \"DestinationAirport\": \"YVR\", \"DestinationRegion\": \"North America\", \"Distance\": 3535, \"Source\": \"jetblue\", \"Connecting\": false}, {\"ID\": \"3InG3KmaCab3xKSTIY06noIdoZV\", \"OriginAirport\": \"TPE\", \"Or"
+      "notes": "[{\"ID\": \"2SB27wOOLxesTZMGvVbW7vtwaa1\", \"OriginAirport\": \"SFO\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"MEL\", \"DestinationRegion\": \"Oceania\", \"Distance\": 7871, \"Source\": \"velocity\", \"Connecting\": false}, {\"ID\": \"34WkUbebUG79B4i60J0vcsYtgG8\", \"OriginAirport\": \"PSP\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"EWR\", \"DestinationRegion\": \"North America\", \"Distance\": 2354, \"Source\": \"jetblue\", \"Connecting\": false}, {\"ID\": \"2vBMkhdokNeYid0eHIkHX228QOu\", \"OriginAirport\": \"KE"
     }
   ]
 }
