@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T16:09:37.697555+00:00",
+  "updated_at": "2026-10-18T10:25:53.335811+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"2SB27wOOLxesTZMGvVbW7vtwaa1\", \"OriginAirport\": \"SFO\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"MEL\", \"DestinationRegion\": \"Oceania\", \"Distance\": 7871, \"Source\": \"velocity\", \"Connecting\": false}, {\"ID\": \"3InG3KmaCab3xKSTIY06noIdoZV\", \"OriginAirport\": \"TPE\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"OKA\", \"DestinationRegion\": \"Asia\", \"Distance\": 407, \"Source\": \"etihad\", \"Connecting\": false}, {\"ID\": \"3DAlLOGGaVcKLD6xA9eJspvOB1d\", \"OriginAirport\": \"TOS\", \"OriginRegion\": "
+      "notes": "[{\"ID\": \"3DAlLN6qANUhnhPGbRqEJlw9oi4\", \"OriginAirport\": \"MCO\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"PIT\", \"DestinationRegion\": \"North America\", \"Distance\": 836, \"Source\": \"frontier\", \"Connecting\": false}, {\"ID\": \"3InG3KmaCab3xKSTIY06noIdoZV\", \"OriginAirport\": \"TPE\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"OKA\", \"DestinationRegion\": \"Asia\", \"Distance\": 407, \"Source\": \"etihad\", \"Connecting\": false}, {\"ID\": \"3DAlLOGGaVcKLD6xA9eJspvOB1d\", \"OriginAirport\": \"TOS\", \"OriginRegi"
     }
   ]
 }
