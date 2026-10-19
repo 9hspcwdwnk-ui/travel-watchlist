@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T16:23:00.245469+00:00",
+  "updated_at": "2026-10-19T12:11:14.429579+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"3DAlLN6qANUhnhPGbRqEJlw9oi4\", \"OriginAirport\": \"MCO\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"PIT\", \"DestinationRegion\": \"North America\", \"Distance\": 836, \"Source\": \"frontier\", \"Connecting\": false}, {\"ID\": \"3InG3KmaCab3xKSTIY06noIdoZV\", \"OriginAirport\": \"TPE\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"OKA\", \"DestinationRegion\": \"Asia\", \"Distance\": 407, \"Source\": \"etihad\", \"Connecting\": false}, {\"ID\": \"3DAlLOGGaVcKLD6xA9eJspvOB1d\", \"OriginAirport\": \"TOS\", \"OriginRegi"
+      "notes": "[{\"ID\": \"3InbwlifM44eLvBbXoDrYJrtEX6\", \"OriginAirport\": \"TPE\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"DAD\", \"DestinationRegion\": \"Asia\", \"Distance\": 1048, \"Source\": \"etihad\", \"Connecting\": false}, {\"ID\": \"2aWceuZ9xO5Qt2kMACvi5au95qJ\", \"OriginAirport\": \"ZNZ\", \"OriginRegion\": \"Africa\", \"DestinationAirport\": \"AMS\", \"DestinationRegion\": \"Europe\", \"Distance\": 4527, \"Source\": \"qantas\", \"Connecting\": false}, {\"ID\": \"3GYl9UP6ZieKnUkQHLNsuambi6a\", \"OriginAirport\": \"MAD\", \"OriginRegion\": \"Europe\","
     }
   ]
 }
