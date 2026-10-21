@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T17:48:10.203727+00:00",
+  "updated_at": "2026-10-21T11:12:01.517851+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"3InbwlifM44eLvBbXoDrYJrtEX6\", \"OriginAirport\": \"TPE\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"DAD\", \"DestinationRegion\": \"Asia\", \"Distance\": 1048, \"Source\": \"etihad\", \"Connecting\": false}, {\"ID\": \"2j4H26DQVXNqDiic5BZRbg4NojS\", \"OriginAirport\": \"BOI\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"BZN\", \"DestinationRegion\": \"North America\", \"Distance\": 292, \"Source\": \"american\", \"Connecting\": false}, {\"ID\": \"2kkB9GlXkcNvCSKX6ded1wtPWfA\", \"OriginAirport\": \"ICN\", \"OriginReg"
+      "notes": "[{\"ID\": \"2j4H26DQVXNqDiic5BZRbg4NojS\", \"OriginAirport\": \"BOI\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"BZN\", \"DestinationRegion\": \"North America\", \"Distance\": 292, \"Source\": \"american\", \"Connecting\": false}, {\"ID\": \"2kkB9GlXkcNvCSKX6ded1wtPWfA\", \"OriginAirport\": \"ICN\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"RGN\", \"DestinationRegion\": \"Asia\", \"Distance\": 2327, \"Source\": \"alaska\", \"Connecting\": false}, {\"ID\": \"3InbwlifM44eLvBbXoDrYJrtEX6\", \"OriginAirport\": \"TPE\", \"OriginReg"
     }
   ]
 }
