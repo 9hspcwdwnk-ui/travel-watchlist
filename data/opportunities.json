@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T11:37:30.098150+00:00",
+  "updated_at": "2026-10-27T18:34:10.498881+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"3L5NTMTgjKMYZaSKLdbiOba4kfW\", \"OriginAirport\": \"CHS\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"SFO\", \"DestinationRegion\": \"North America\", \"Distance\": 2394, \"Source\": \"jetblue\", \"Connecting\": false}, {\"ID\": \"3BLqdYRsiOSVMfTttuthhyEJ7Dg\", \"OriginAirport\": \"ATL\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LAX\", \"DestinationRegion\": \"North America\", \"Distance\": 1943, \"Source\": \"frontier\", \"Connecting\": false}, {\"ID\": \"3BLqdTwszknphbSaZp2TTJ5GCZG\", \"OriginAirport"
+      "notes": "[{\"ID\": \"3L5NTMTgjKMYZaSKLdbiOba4kfW\", \"OriginAirport\": \"CHS\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"SFO\", \"DestinationRegion\": \"North America\", \"Distance\": 2394, \"Source\": \"jetblue\", \"Connecting\": false}, {\"ID\": \"3BLqdYRsiOSVMfTttuthhyEJ7Dg\", \"OriginAirport\": \"ATL\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LAX\", \"DestinationRegion\": \"North America\", \"Distance\": 1943, \"Source\": \"frontier\", \"Connecting\": false}, {\"ID\": \"3BLxvsropp50fFZI8nUlcea1un0\", \"OriginAirport"
     }
   ]
 }
