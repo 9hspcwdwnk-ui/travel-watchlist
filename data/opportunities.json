@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T11:42:38.559745+00:00",
+  "updated_at": "2026-10-31T17:31:14.856421+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"3BLxvumtcnK104I0eS0vkMAR3oh\", \"OriginAirport\": \"DFW\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"MDW\", \"DestinationRegion\": \"North America\", \"Distance\": 798, \"Source\": \"frontier\", \"Connecting\": false}, {\"ID\": \"3IHiQhI40vpAeyQDv1dJ6FoizC0\", \"OriginAirport\": \"GRU\", \"OriginRegion\": \"South America\", \"DestinationAirport\": \"FTE\", \"DestinationRegion\": \"South America\", \"Distance\": 2311, \"Source\": \"smiles\", \"Connecting\": false}, {\"ID\": \"3BLqdVm1x46ATJbvtyy6eOqAeS4\", \"OriginAirport\":"
+      "notes": "[{\"ID\": \"3BLxvxYpyOcO8sqlo8zVL8KEkD6\", \"OriginAirport\": \"PHL\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LAS\", \"DestinationRegion\": \"North America\", \"Distance\": 2173, \"Source\": \"frontier\", \"Connecting\": false}, {\"ID\": \"3BLqdZjj9UMqii1WYcY9LSdacbP\", \"OriginAirport\": \"PHL\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LAX\", \"DestinationRegion\": \"North America\", \"Distance\": 2398, \"Source\": \"frontier\", \"Connecting\": false}, {\"ID\": \"3HnT7lwdCHEVyQRq6sMnDFAjbO8\", \"OriginAirpor"
     }
   ]
 }
