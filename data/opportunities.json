@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T18:16:48.222065+00:00",
+  "updated_at": "2026-11-02T14:48:24.300304+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"3BLxvxYpyOcO8sqlo8zVL8KEkD6\", \"OriginAirport\": \"PHL\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"LAS\", \"DestinationRegion\": \"North America\", \"Distance\": 2173, \"Source\": \"frontier\", \"Connecting\": false}, {\"ID\": \"3BLxvv9FkG7SA70XLECffbOkapp\", \"OriginAirport\": \"CUN\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"MDW\", \"DestinationRegion\": \"North America\", \"Distance\": 1436, \"Source\": \"frontier\", \"Connecting\": false}, {\"ID\": \"3BMCWrLYU9epOEdwJohj6KbkdVm\", \"OriginAirpor"
+      "notes": "[{\"ID\": \"2SRxalVgH72RiQW49Cb7obFjbL5\", \"OriginAirport\": \"LHR\", \"OriginRegion\": \"Europe\", \"DestinationAirport\": \"CMN\", \"DestinationRegion\": \"Africa\", \"Distance\": 1302, \"Source\": \"qantas\", \"Connecting\": false}, {\"ID\": \"2aWceuZ9xO5Qt2kMACvi5au95qJ\", \"OriginAirport\": \"ZNZ\", \"OriginRegion\": \"Africa\", \"DestinationAirport\": \"AMS\", \"DestinationRegion\": \"Europe\", \"Distance\": 4527, \"Source\": \"qantas\", \"Connecting\": false}, {\"ID\": \"3KzJeOYBU5euLBYcj5Rm86JysTu\", \"OriginAirport\": \"HKG\", \"OriginRegion\": \"Asia"
     }
   ]
 }
