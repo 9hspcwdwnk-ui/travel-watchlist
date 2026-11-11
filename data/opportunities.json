@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:17:00.512911+00:00",
+  "updated_at": "2026-11-11T13:35:27.027032+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"3JQabN3LvrQzsaBjGaSsryhn2IE\", \"OriginAirport\": \"SFO\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"SJO\", \"DestinationRegion\": \"North America\", \"Distance\": 3044, \"Source\": \"lifemiles\", \"Connecting\": false}, {\"ID\": \"3DAlLMP0GHvqS63Iv9OuhcDuExU\", \"OriginAirport\": \"KIX\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"MMY\", \"DestinationRegion\": \"Asia\", \"Distance\": 895, \"Source\": \"united\", \"Connecting\": false}, {\"ID\": \"3B7C58uDL4oyIXtDqAW39W3KWXd\", \"OriginAirport\": \"GRU\", \"OriginRe"
+      "notes": "[{\"ID\": \"3Lw1J9fa95BMC602mBWD4264wLu\", \"OriginAirport\": \"ZAG\", \"OriginRegion\": \"Europe\", \"DestinationAirport\": \"YYZ\", \"DestinationRegion\": \"North America\", \"Distance\": 4399, \"Source\": \"porter\", \"Connecting\": false}, {\"ID\": \"3JQabN3LvrQzsaBjGaSsryhn2IE\", \"OriginAirport\": \"SFO\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"SJO\", \"DestinationRegion\": \"North America\", \"Distance\": 3044, \"Source\": \"lifemiles\", \"Connecting\": false}, {\"ID\": \"3DAlLMP0GHvqS63Iv9OuhcDuExU\", \"OriginAirport\": \"KIX"
     }
   ]
 }
