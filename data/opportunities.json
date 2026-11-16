@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T19:15:59.649053+00:00",
+  "updated_at": "2026-11-16T14:50:20.144990+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"3DAlLMP0GHvqS63Iv9OuhcDuExU\", \"OriginAirport\": \"KIX\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"MMY\", \"DestinationRegion\": \"Asia\", \"Distance\": 895, \"Source\": \"united\", \"Connecting\": false}, {\"ID\": \"3B7C57Wv64su3VJTYkFjv57OM1Y\", \"OriginAirport\": \"LAX\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"BOS\", \"DestinationRegion\": \"North America\", \"Distance\": 2607, \"Source\": \"finnair\", \"Connecting\": false}, {\"ID\": \"2Wwbk9HaytZt9vOEMqSMSwpKP3C\", \"OriginAirport\": \"MIA\", \"OriginRegi"
+      "notes": "[{\"ID\": \"2OfooTwPweAwdn91DWOnGACnQPy\", \"OriginAirport\": \"ORD\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"AMS\", \"DestinationRegion\": \"Europe\", \"Distance\": 4112, \"Source\": \"aeroplan\", \"Connecting\": false}, {\"ID\": \"2aWceuZ9xO5Qt2kMACvi5au95qJ\", \"OriginAirport\": \"ZNZ\", \"OriginRegion\": \"Africa\", \"DestinationAirport\": \"AMS\", \"DestinationRegion\": \"Europe\", \"Distance\": 4527, \"Source\": \"qantas\", \"Connecting\": false}, {\"ID\": \"2i7xvXjTTZi4yXk5PN9W82cRTxp\", \"OriginAirport\": \"HND\", \"OriginRegio"
     }
   ]
 }
