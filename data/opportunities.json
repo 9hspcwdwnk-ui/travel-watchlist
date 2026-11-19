@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T15:16:37.824556+00:00",
+  "updated_at": "2026-11-19T21:12:37.401109+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"2mHEcUJQZjZ7oW6Y9VJLBGe7Ojd\", \"OriginAirport\": \"ORD\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"MQT\", \"DestinationRegion\": \"North America\", \"Distance\": 303, \"Source\": \"alaska\", \"Connecting\": false}, {\"ID\": \"2IZU4pLR9ZY10FklJdMetgOdUIt\", \"OriginAirport\": \"CDG\", \"OriginRegion\": \"Europe\", \"DestinationAirport\": \"SEA\", \"DestinationRegion\": \"North America\", \"Distance\": 5007, \"Source\": \"delta\", \"Connecting\": false}, {\"ID\": \"2u3RqlXk5dVq4sl44q19jPFwGJC\", \"OriginAirport\": \"KGL\", \"O"
+      "notes": "[{\"ID\": \"2mHEcUJQZjZ7oW6Y9VJLBGe7Ojd\", \"OriginAirport\": \"ORD\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"MQT\", \"DestinationRegion\": \"North America\", \"Distance\": 303, \"Source\": \"alaska\", \"Connecting\": false}, {\"ID\": \"2IZU4pLR9ZY10FklJdMetgOdUIt\", \"OriginAirport\": \"CDG\", \"OriginRegion\": \"Europe\", \"DestinationAirport\": \"SEA\", \"DestinationRegion\": \"North America\", \"Distance\": 5007, \"Source\": \"delta\", \"Connecting\": false}, {\"ID\": \"2R70z9rmRLzTAD0wIJmDrK6QEzE\", \"OriginAirport\": \"DOH\", \"O"
     }
   ]
 }
