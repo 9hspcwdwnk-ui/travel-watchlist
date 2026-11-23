@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T20:10:30.638283+00:00",
+  "updated_at": "2026-11-23T17:26:03.609490+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"2IZU4pLR9ZY10FklJdMetgOdUIt\", \"OriginAirport\": \"CDG\", \"OriginRegion\": \"Europe\", \"DestinationAirport\": \"SEA\", \"DestinationRegion\": \"North America\", \"Distance\": 5007, \"Source\": \"delta\", \"Connecting\": false}, {\"ID\": \"2R70z9rmRLzTAD0wIJmDrK6QEzE\", \"OriginAirport\": \"DOH\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"BHX\", \"DestinationRegion\": \"Europe\", \"Distance\": 3328, \"Source\": \"alaska\", \"Connecting\": false}, {\"ID\": \"2u3RqlXk5dVq4sl44q19jPFwGJC\", \"OriginAirport\": \"KGL\", \"OriginRegion\": \""
+      "notes": "[{\"ID\": \"3JkgO20GGsa5R8y65nWvkmX40lO\", \"OriginAirport\": \"YUL\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"SEA\", \"DestinationRegion\": \"North America\", \"Distance\": 2280, \"Source\": \"etihad\", \"Connecting\": false}, {\"ID\": \"3LqGuDp9DCuQcgDZ577nwgU3A7n\", \"OriginAirport\": \"YUL\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"RSW\", \"DestinationRegion\": \"North America\", \"Distance\": 1382, \"Source\": \"porter\", \"Connecting\": false}, {\"ID\": \"2VXSRKEE0kb9lS9VqWFECCuvkRb\", \"OriginAirport\": "
     }
   ]
 }
