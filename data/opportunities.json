@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T22:09:40.009150+00:00",
+  "updated_at": "2026-11-26T16:25:29.083733+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"3JkgO20GGsa5R8y65nWvkmX40lO\", \"OriginAirport\": \"YUL\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"SEA\", \"DestinationRegion\": \"North America\", \"Distance\": 2280, \"Source\": \"etihad\", \"Connecting\": false}, {\"ID\": \"3DAlQ9y2oWMUUa8HvySluyT1Yz5\", \"OriginAirport\": \"SIN\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"TPE\", \"DestinationRegion\": \"Asia\", \"Distance\": 2003, \"Source\": \"jetblue\", \"Connecting\": false}, {\"ID\": \"3DqL0dRMJbRGwMbl1mr4lT5tuSK\", \"OriginAirport\": \"GST\", \"OriginReg"
+      "notes": "[{\"ID\": \"3DN88kZjugVCt7B3GUHumoOPxLT\", \"OriginAirport\": \"MAD\", \"OriginRegion\": \"Europe\", \"DestinationAirport\": \"GUA\", \"DestinationRegion\": \"North America\", \"Distance\": 5417, \"Source\": \"iberia\", \"Connecting\": false}, {\"ID\": \"3DAlQ9y2oWMUUa8HvySluyT1Yz5\", \"OriginAirport\": \"SIN\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"TPE\", \"DestinationRegion\": \"Asia\", \"Distance\": 2003, \"Source\": \"jetblue\", \"Connecting\": false}, {\"ID\": \"3DqL0dRMJbRGwMbl1mr4lT5tuSK\", \"OriginAirport\": \"GST\", \"OriginRegion\": \""
     }
   ]
 }
