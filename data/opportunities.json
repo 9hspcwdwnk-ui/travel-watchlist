@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T16:10:34.997719+00:00",
+  "updated_at": "2026-11-27T21:49:37.205658+00:00",
   "opportunities": [
     {
       "destination": "Seats.aero routes test",
@@ -13,7 +13,7 @@
       "two_seats": "Unknown",
       "recommendation": "Monitor",
       "score": 100,
-      "notes": "[{\"ID\": \"2RosDrNn5po9D6xOaCsTZyIB3Pt\", \"OriginAirport\": \"LAX\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"CUN\", \"DestinationRegion\": \"North America\", \"Distance\": 2119, \"Source\": \"aeromexico\", \"Connecting\": false}, {\"ID\": \"3DAlQ9y2oWMUUa8HvySluyT1Yz5\", \"OriginAirport\": \"SIN\", \"OriginRegion\": \"Asia\", \"DestinationAirport\": \"TPE\", \"DestinationRegion\": \"Asia\", \"Distance\": 2003, \"Source\": \"jetblue\", \"Connecting\": false}, {\"ID\": \"3DqL0dRMJbRGwMbl1mr4lT5tuSK\", \"OriginAirport\": \"GST\", \"Origi"
+      "notes": "[{\"ID\": \"2RosDrNn5po9D6xOaCsTZyIB3Pt\", \"OriginAirport\": \"LAX\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"CUN\", \"DestinationRegion\": \"North America\", \"Distance\": 2119, \"Source\": \"aeromexico\", \"Connecting\": false}, {\"ID\": \"3DqL0dRMJbRGwMbl1mr4lT5tuSK\", \"OriginAirport\": \"GST\", \"OriginRegion\": \"North America\", \"DestinationAirport\": \"JNU\", \"DestinationRegion\": \"North America\", \"Distance\": 40, \"Source\": \"alaska\", \"Connecting\": false}, {\"ID\": \"2aWceuZ9xO5Qt2kMACvi5au95qJ\", \"OriginAirport\""
     }
   ]
 }
